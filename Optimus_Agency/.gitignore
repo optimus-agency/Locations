@@ -1,7 +1,6 @@
-# Visual Studio 2015/Rider user specific files
+# Visual Studio 2015 user specific files
 .vs/
 .idea/
-*.DotSettings.user
 
 # Compiled Object files
 *.slo
@@ -15,16 +14,16 @@
 *.pdb
 
 # Compiled Dynamic libraries
-#*.so
-#*.dylib
+*.so
+*.dylib
 
 # Fortran module files
 *.mod
 
 # Compiled Static libraries
-#*.lai
-#*.la
-#*.a
+*.lai
+*.la
+*.a
 
 # Executables
 *.exe
@@ -42,7 +41,7 @@
 *.VC.db
 *.VC.opendb
 .vsconfig
-
+*.bin
 
 # Precompiled Assets
 SourceArt/**/*.png
@@ -59,6 +58,7 @@ Saved/*
 Plugins/*/Saved/*
 Plugins/*/*/Saved/*
 
+
 # Compiled source files for the engine to use
 Intermediate/*
 Plugins/*/Intermediate/*
@@ -68,6 +68,3 @@ Plugins/*/*/Intermediate/*
 DerivedDataCache/*
 
 Plugins/Developer/*
-
-#Exlude
-!Plugins/EOSIntegrationKit/Source/ThirdParty/*
